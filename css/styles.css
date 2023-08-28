@@ -344,14 +344,13 @@ img {
 .portfolio-section-list-item {
   width: calc((100% - 48px) / 3);
   background-color: #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-section-list-item:hover,
 .portfolio-section-list-item:focus {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66v 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%),
+    0px 2px 1px rgb(46 47 66 / 8%);
 }
 
 .portfolio-item-image {
